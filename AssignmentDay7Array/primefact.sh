@@ -8,7 +8,6 @@ echo "not allowed!"
 exit 1
 fi
 # find factors and prime
-
 i=2
 count=0
 flag=0
