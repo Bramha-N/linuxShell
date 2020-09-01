@@ -9,6 +9,5 @@ for (( n =1; n<=max; n++ ))
 do
 	y=$(($RANDOM%90+10))
 	echo $y
-	#awk '{sum+= $y} END {print sum}' #DOUBT
 
 done | awk '{sum+= $y} {print sum} END {print sum/NR}'
